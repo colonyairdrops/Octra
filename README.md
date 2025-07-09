@@ -55,7 +55,7 @@ nano wallet.json
 * Use CTRL X Y & Enter to Exit
 
 ```
-python3 cli.py
+./run.sh
 ```
 ![image](https://github.com/user-attachments/assets/652ea979-2188-436b-bd64-34a65d0cc061)
 
@@ -87,7 +87,7 @@ nano wallet.json
 * Use CTRL X Y & Enter to Exit
 
 ```
-python3 cli.py
+./run.sh
 ```
 ![image](https://github.com/user-attachments/assets/20a9cbbd-e58f-4833-801e-67e9b6b0a4dc)
 - Use the UI and try different trx
