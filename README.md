@@ -62,6 +62,37 @@ python3 cli.py
 - Use the UI to send trx to address
 - You can use octra explorer to get address --> [Explorer](https://octrascan.io/)
 
+# Task 2 - Encrypted Transactions
+- Create New [Codespace](https://github.com/codespaces)
+
+## Install CLI
+```
+git clone https://github.com/octra-labs/octra_pre_client.git
+```
+```
+cd octra_pre_client
+```
+```
+pip install -r requirements.txt
+```
+```
+cp wallet.json.example wallet.json
+```
+```
+nano wallet.json
+```
+* Replace following values:
+  * `private-key-here`: Privatekey with `B64` format (already saved earlier)
+  * `octxxxxxxxx...`: Octra address starting with `oct...`
+* Use CTRL X Y & Enter to Exit
+
+```
+python3 cli.py
+```
+![image](https://github.com/user-attachments/assets/20a9cbbd-e58f-4833-801e-67e9b6b0a4dc)
+- Use the UI and try different trx
+- You can use octra explorer to get address --> [Explorer](https://octrascan.io/)
+
 
 ---
 - Done !! Feel free to ask queries in telegram channel
